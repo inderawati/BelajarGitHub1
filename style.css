@@ -1,23 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
     margin: 0;
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 .container {
-    max-width: 700px;
-    background: white;
-    padding: 30px;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 40px;
     margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: #0366d6;
+    color: #0066cc;
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
 h2 {
     color: #333;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004999;
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #004999;
 }
